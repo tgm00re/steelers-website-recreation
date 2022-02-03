@@ -1,0 +1,140 @@
+*{
+    outline: none;
+    border: none;
+}
+
+#banner{
+    width: 100%;
+    height: 175px;
+    object-position: center;
+    object-fit: cover;
+}
+
+#pepsi-ad{
+    max-width: 300px;
+    text-align: center;
+}
+
+
+.nav-pills .nav-link.active{
+    background-color: transparent!important;
+    color: black !important;
+    border-bottom: 2px solid black;
+}
+
+#home-tab .active:focus{
+    background-color: black !important;
+}
+
+
+
+.carousel-item > img{
+    height: 100%;
+}
+
+#carousel-banner{
+    height: 200px;
+}
+
+.col-lg-2 > .card{
+    background-color: rgb(255, 182, 18);
+}
+
+.navbar-dark .navbar-nav .nav-link, .dropdown-item{
+    color: white !important;
+}
+
+
+.search-click {
+    background-color: transparent;
+    background-image: url("images/magnify.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+}
+.search-click:focus {
+width: 100%;
+padding-left: 50px;
+}
+.search-click {
+position: relative;
+overflow: hidden;
+height: 50px;
+}
+.search-click input {
+background: transparent;
+border: 1px solid #ccc;
+outline: none;
+position: absolute;
+width: 100%;
+height: 50px;
+left: 0%;
+padding: 10px;
+}
+
+.col-lg-2 > .card > .card-body > .card-text{
+    height: 89px;
+}
+
+#small-banner{
+    display: none;
+}
+
+#thanks-banner{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.mid-card{
+    height: 350px;
+    width: 100% !important;
+    background-color: blue;
+}
+
+.mid-card > img{
+    height: 225px;
+    object-position: center;
+}
+
+
+
+
+
+@media screen and (max-width: 760px) {
+.col-lg-2 > .card > .card-body > .card-text{
+    height: 45px !important;
+}
+
+#banner{
+    display: none;
+}
+
+#small-banner{
+    display: block;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.mid-card{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.mid-card > img{
+    height: auto;
+}
+}
+
+
